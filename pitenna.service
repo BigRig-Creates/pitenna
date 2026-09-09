@@ -1,0 +1,20 @@
+[Unit]
+Description=PiTenna Dual Display Camera Application
+After=multi-user.target systemd-user-sessions.service
+
+[Service]
+Type=simple
+User=tenna
+Group=tenna
+# The user also needs to be in: video, render, input, i2c, audio
+WorkingDirectory=/home/tenna/pitenna
+ExecStartPre=/bin/bash -c 'timeout=30; count=0; until [ -e /dev/dri/card1 ] || [ $count -ge $timeout ]; do sleep 0.5; count=$((count+1)); done'
+ExecStart=/home/tenna/pitenna/scripts/run_pitenna.sh --force
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal+console
+StandardError=journal+console
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=multi-user.target

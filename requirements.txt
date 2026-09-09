@@ -1,0 +1,10 @@
+picamera2>=0.3.12
+pygame>=2.5.0
+numpy>=1.24.0
+Pillow>=10.0.0
+evdev>=1.6.0
+smbus2>=0.4.0
+psutil>=5.9.0
+
+# Not installable from PyPI - install with apt:
+#   python3-kms++   (provides pykms, required for the DRM camera preview)
