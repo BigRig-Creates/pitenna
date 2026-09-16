@@ -5,6 +5,9 @@ This is the repository for all of the code needed for the Tenna cosplay.  It is 
 <strong><u>3D FILES ARE FOUND HERE  </u></strong>
 https://github.com/BigRig-Creates/pitenna-3d-files
 
+Also, here is a google drive to BunnyBii's original files, animations, and notes for their version of the project:
+https://drive.google.com/drive/mobile/folders/1RQNVArisyQt1mSsYmyS5tIiOVSgfHcZs?safe=active
+
 
 <strong><u>This code will need to be tested for your own implementation, and neither BigRig nor BunnyBii have the capacity to help directly with troubleshooting at this time.  </u></strong>
 
@@ -14,7 +17,6 @@ This repository does welcome improvements via pull requests for the code and 3D 
 <strong><u>PLEASE ALSO NOTE  </u></strong>
 
 The Geekworm X1203 UPS was powerful enough to run everything, but the screen must not be turned on while the Pi boots!
-
 
 That being said, here is a rundown of BigRig Creates'software implementation:
 
@@ -32,6 +34,7 @@ glasses view so you can see what the outside world is seeing.
 - Two HDMI displays, wired as described below
 - A Bluetooth or USB gamepad (the microphone 3D file is made to fit the CRKD ATOM)
 - Optional: Geekworm X1203 UPS for the on-screen battery readout.  Reccomended for max amp output.
+
 
 Here is a list of affiliated links to BigRig Creates' specific set up:
 
