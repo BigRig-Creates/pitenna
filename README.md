@@ -1,6 +1,7 @@
 # PiTenna
 This is the repository for all of the code needed for the Tenna cosplay.  It is currently based on BigRig Creates' implementation for his specific set up and contains assets from Deltarune and BunnyBii.
 
+Please tag BigRig Creates and BunnyBii if you use these files!
 
 <strong><u>3D FILES ARE FOUND HERE  </u></strong>
 https://github.com/BigRig-Creates/pitenna-3d-files
